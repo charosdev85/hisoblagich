@@ -1,0 +1,129 @@
+/* @font-face {
+  font-family: calc;
+  src: url(./RADIOLANDSLIM.ttf);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-family: monospace;
+  font-size: 45px;
+  padding: 80px 50px;
+  letter-spacing: 2px;
+}
+.containercalc {
+  width: 400px;
+  margin: 0px auto;
+  border: 3px solid white;
+  padding: 25px;
+}
+.display {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+    border: none;
+    outline: none; 
+}
+.calcbuttons {
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  grid-gap: 10px;
+}
+button {
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: monospace;
+} */
+/* .box {
+  margin: 50px 100px;
+  background-color: aquamarine;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  height: 30px;
+  padding: 4px 8px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.value {
+  background-color: cadetblue;
+  padding: 5px;
+  width: 300px;
+}
+
+.increment {
+  background-color: green;
+  width: 30px;
+  padding-bottom: 8px;
+}
+
+.decrement {
+  background-color: yellow;
+  color: black;
+  width: 30px;
+  padding-bottom: 10px;
+} */
+
+.calculator {
+  width: 250px;
+  background-color: black;
+  padding: 8px 10px;
+  border-radius: 5px;
+  margin: 100px 200px;
+}
+
+.calculator div {
+  width: 100%;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.display-box {
+  height: 70px;
+  background-color: rgb(3, 41, 94);
+  display: flex;
+  align-items: center;
+  text-align: flex-end;
+}
+
+.display {
+  color: #fff;
+  text-align: right;
+  background-color: inherit;
+  width: 100%;
+  height: 90%;
+  font-size: 35px;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(10, 87, 196);
+  color: #fff;
+  outline: 0;
+  font-size: 24px;
+}
